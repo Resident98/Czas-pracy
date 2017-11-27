@@ -1,0 +1,132 @@
+body{
+	height: 700px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: block;
+	background-color: grey;
+}
+textarea, input[type=text], input[type=password], input[type=email], input[type=date], input[type=time]{
+	margin: 2px 2px;
+	border-radius: 5px;
+	background-color: white;
+	border: 3px solid grey;
+	cursor: text;
+}
+textarea:focus ,input[type=text]:focus,input[type=password]:focus,input[type=email]:focus,input[type=date]:focus,input[type=time]:focus{
+	border: 3px solid #555;
+	border-radius: 5px;
+	box-sizing: border-box;
+	outline: none;
+}
+input[type=submit]{
+	border: none; 
+	border-radius: 10px; 
+	padding: 5px 2px; 
+	color: white; 
+	background-color: #555555; 
+	font-size: 20px;
+	cursor: pointer;
+}
+#container{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	background-color: grey;
+}
+#menu{
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	width: 100%;
+	height: 18%;
+	text-align: center;
+	overflow: hidden;
+}
+#menu img{
+	position: relative;
+	float: left;
+	height: 100%;
+}
+#menu a{
+	display: block;
+	border-radius: 10px;
+	line-height: 35px;
+	height: 35px;
+	width: 10%;
+	float: right;
+	margin-top: 45px;
+	margin-right: 25px;
+	background-color: white;
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+#menu a:hover{
+	color: white;
+	background-color: grey;
+}
+#content{
+	display: block;
+	height: 82%;
+	padding-top: 10%;
+	margin-left: 1%;
+	color: white;
+}
+#button{
+	border: none; 
+	padding: 5px 2px; 
+	color: white; 
+	background-color: #a6a6a6;
+}
+#button:hover, #button:focus, #button:active{
+	border: none; 
+	outline-color: grey;
+	outline-style: groove;
+	padding: 5px 2px; 
+	color: white; 
+	background-color: #a6a6a6;
+	cursor: pointer;
+}
+#przycisk{
+	border: none; 
+	padding: 10px 4px; 
+	color: white; 
+	background-color: #a6a6a6;
+}
+#przycisk:hover, #przycisk:focus, #przycisk:active{
+	border: none; 
+	padding: 10px 4px; 
+	color: white; 
+	background-color: #a6a6a6;
+	cursor: pointer;
+}
+fieldset{
+	display: block;
+	background-color: #a6a6a6;
+	font-size: 28px;
+	margin-left: 38%;
+	padding: 25px;
+	float: left;
+	border: 1px solid #a6a6a6;
+	border-radius: 25px;
+}
+form{
+	font-size: 20px;
+}
+table{
+	float: left;
+	table-layout: fixed;
+	margin-right: 10px;
+}
+table, tr, th, td{
+	border: 2px solid white;
+	border-collapse: collapse;
+	font-size: 20px;
+}
+.brak{
+	background-color: #a6a6a6;
+}
